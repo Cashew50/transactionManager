@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 import java.time.*;
 import java.time.temporal.ChronoUnit;
 public class TransactionAnalyzer {
-    //testtttttttttttttttttt
     public static void main(String[] args) {
         List<Transaction> transactions = new ArrayList<>();
         transactions.add(new Transaction(LocalDate.of(2020, 11, 1), "Morrisons", "card", 10.40, "Groceries"));
